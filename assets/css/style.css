@@ -53,6 +53,11 @@ header {
     text-decoration: none;
 }
 
+.my-nav a:hover {
+    text-decoration: underline;
+    color: #e89f0c;
+}
+
 .my-nav li#last {
     border: none;
     padding-right: 0;
