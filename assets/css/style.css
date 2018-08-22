@@ -97,27 +97,45 @@ p {
     margin-bottom: 20px;
 }
 
-#container td {
-    padding: 0px 35px 45px 0px;
-}
+/* portfolio page */
 
-.one {
+.work {
+    position: relative;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 22px;
     float: left;
-
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
 }
 
-.two {
-    clear: left;
-    float: left;
+.work:nth-child(even) {
+    margin-right: 40px;
 }
 
-.three {
-    clear: left;
-    float: left;
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
 }
+
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
 
 footer {
-    position: absolute;
+    position: fixed;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
@@ -126,6 +144,10 @@ footer {
     left: 0;
     right: 0;
     height:60px;
+}
+
+.push {
+    height: 60px;
 }
 
 #copy {
@@ -143,7 +165,8 @@ form {
     padding-bottom: 20px;
 }
 
-input[type=text] {
+input[type=text],
+input[type=email] {
     width: 100%;
     padding: 10px 10px;
     margin: 8px 0px;
