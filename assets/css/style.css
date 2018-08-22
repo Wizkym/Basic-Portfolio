@@ -175,7 +175,7 @@ input[type=email] {
 }
 
 textarea {
-    border: solid 1px #777777;
+    border: 1px solid #ddd;
     margin-top: 10px;
     padding-top: 10px;
     width: 102%;
